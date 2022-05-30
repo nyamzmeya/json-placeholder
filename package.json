@@ -1,7 +1,7 @@
 {
   "name": "users",
   "version": "0.1.0",
-  "homepage": "https://nyamzmeya.github.io/json-placeholder",
+  "homepage": "https://nyamzmeya.github.io/json-placeholder/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",

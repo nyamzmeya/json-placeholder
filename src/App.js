@@ -36,11 +36,11 @@ class App extends React.Component {
 
 let MainApp = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    // <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Provider store={store}>
         <App />
       </Provider>
-    </BrowserRouter>
+    // </BrowserRouter>
   );
 };
 
