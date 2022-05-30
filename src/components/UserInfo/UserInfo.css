@@ -1,0 +1,130 @@
+.user_info {
+  color: #000000;
+  border: 1px solid #000000;
+  padding-left: 53px;
+  padding-right: 53px;
+}
+
+.user_info .ant-card-head-title {
+  padding: 11px 0 13px 18px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.user_info .ant-card-head {
+  padding: 0px;
+  border: 1px solid #000000;
+}
+
+.user_info .ant-card-body {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+}
+.user_info .ant-card-body p {
+  padding: 14px 18px;
+  border: 1px solid #000000;
+  flex-grow: 1;
+  margin-bottom: 0px;
+}
+
+.user_info .ant-card-body p:nth-child(even) {
+  color: white;
+  background: #000000;
+}
+
+.posts {
+  border: 1px solid #000000;
+  margin-top: 25px;
+  margin-bottom: 33px;
+}
+.posts .ant-list-item,
+.posts .ant-list-item-meta-title,
+.posts .ant-list-item-meta-description {
+  color: white;
+  background: #000000;
+}
+.posts .ant-list-item {
+  height: 73px;
+  margin-bottom: 20px;
+}
+
+.posts .ant-list-items {
+  padding: 15px 0px 15px 0px;
+  max-height: 272px;
+  overflow: hidden;
+}
+
+.posts_show .ant-list-items {
+  max-height: fit-content !important;
+}
+
+.posts .ant-list-header , .comments .ant-list-header {
+  color: rgba(0, 0, 0, 0.85);
+  border: 1px solid #000000;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.user_post {
+  border: 1px solid #000000;
+  padding: 14px 35px 17px 35px;
+}
+
+.user_post .ant-card-head-title {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  padding: 0px;
+}
+
+.user_post .ant-card-head {
+  padding: 0px;
+  margin-bottom: 4px;
+  min-height: fit-content;
+}
+
+.user_post .ant-card-body {
+  padding: 0px;
+}
+
+.comments {
+  margin: 50px 0px;
+}
+
+.comments .ant-list-item {
+  color: rgba(0, 0, 0, 0.85);
+  border: 1px solid #000000;
+  margin-bottom: 20px;
+}
+
+.ant-list-split .ant-list-item:last-child {
+  border-bottom: 1px solid #000000;
+  margin-bottom: 0px;
+}
+
+.post_header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.ant-tag {
+  width: fit-content;
+}
+
+.add {
+  color: white;
+  background: #000000;
+  display: block;
+  margin: auto;
+}
+
+.ant-modal-footer {
+  display: none;
+}

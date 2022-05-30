@@ -1,0 +1,45 @@
+.user {
+  color: #000000;
+  border: 1px solid #000000;
+  width: 40%;
+}
+
+.user .ant-card-head-title {
+  padding: 11px 0 13px 18px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.user .ant-card-head {
+  padding: 0px;
+  border-bottom: 1px solid #000000;
+}
+
+.user .ant-card-body {
+  padding: 14px 18px;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #000000;
+  padding: 36px 53px;
+  row-gap: 25px;
+  justify-content: space-around;
+}
+
+.user_button {
+  background: #101010;
+  border: 1px solid #0d1e4b;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.user_button:active {
+  background: #ffffff;
+  border: 1px solid #0d1e4b;
+  color: #101010;
+}
